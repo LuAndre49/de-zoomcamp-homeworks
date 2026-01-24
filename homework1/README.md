@@ -1,8 +1,8 @@
 # DataTalksClub DE Zoomcamp - Homework 1
 
 ## Question 1
-# Commands used:
+### Commands used:
 docker run -it --entrypoint=bash python:3.13
 pip --version
-# Answer: 25.3
+### Answer: 25.3
 
