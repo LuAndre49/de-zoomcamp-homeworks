@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-engine = create_engine('postgresql://postgres:postgres@localhost:5433/ny_taxi')
+engine = create_engine('postgresql://postgres:postgres@db:5432/ny_taxi')
 green_taxi_df = pd.read_parquet("green_tripdata_2025-11.parquet", engine='pyarrow')
 zones_df = pd.read_csv("taxi_zone_lookup.csv")
 
