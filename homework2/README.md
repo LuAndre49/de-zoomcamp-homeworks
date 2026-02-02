@@ -24,7 +24,13 @@ execute homework_2_gcp_taxi_mainflow
 ### Answer: green_tripdata_2020-04.csv
 
 ## Question 3
-### Answer:
+### Commands used:
+in bigquery:
+SELECT COUNT(*) AS total_rows
+FROM `dtc-de-course-484308.zoomcamp.yellow_tripdata`
+WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
+
+### Answer: 24,648,499
 
 ## Question 4
 ### Commands used:
@@ -36,7 +42,13 @@ WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
 ### Answer: 1,734,051
 
 ## Question 5
-### Answer:
+### Commands used:
+in bigquery:
+SELECT COUNT(*) AS total_rows
+FROM `dtc-de-course-484308.zoomcamp.yellow_tripdata`
+WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2021 AND EXTRACT(MONTH FROM tpep_pickup_datetime) = 3;
+
+### Answer: 1,925,152
 
 ## Question 6
 ### Answer: Add a timezone property set to America/New_York in the Schedule trigger configuration
