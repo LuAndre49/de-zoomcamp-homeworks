@@ -36,8 +36,8 @@ WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
 ### Commands used:
 in bigquery:
 SELECT COUNT(*) AS total_rows
-FROM `dtc-de-course-484308.zoomcamp.yellow_tripdata`
-WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
+FROM `dtc-de-course-484308.zoomcamp.green_tripdata`
+WHERE EXTRACT(YEAR FROM lpep_pickup_datetime) = 2020;
 
 ### Answer: 1,734,051
 
