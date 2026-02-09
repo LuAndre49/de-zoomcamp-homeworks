@@ -1,4 +1,4 @@
-# DataTalksClub DE Zoomcamp - Homework 2
+# DataTalksClub DE Zoomcamp - Homework 3
 
 ## Commands for setting up the yellow tripdata files in BigQuery:
 
