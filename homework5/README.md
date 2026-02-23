@@ -1,4 +1,6 @@
 # DataTalksClub DE Zoomcamp - Homework 5
+### Command:
+bruin run ./my-pipeline/pipeline/pipeline.yml --environment default --full-refresh
 
 ## Question 1
 ### Answer: .bruin.yml and pipeline/ with pipeline.yml and assets/
