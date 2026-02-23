@@ -6,4 +6,3 @@ __pycache__/
 duckdb.db
 logs/
 settings.json
-.gitignore
