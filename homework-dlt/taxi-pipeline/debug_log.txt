@@ -1,0 +1,4 @@
+Pipeline taxi_pipeline load step completed in 1.44 seconds
+1 load package(s) were loaded to destination duckdb and into dataset taxi_data
+The duckdb destination used duckdb:///C:\Users\luand\de-zoomcamp-homeworks\homework-dlt\taxi-pipeline\taxi_pipeline.duckdb location to store data
+Load package 1772468424.4595006 is LOADED and contains no failed jobs
